@@ -10,7 +10,7 @@
 - Clone the repo
 ```
 git clone https://github.com/chavo1/packer-vagrant-ember.git
-cd packer-vagrant-ember/ember-box
+cd packer-vagrant-ember/
 ```
 - To build vagrant box use below command:
 ```
