@@ -9,8 +9,8 @@
 ## How to use it
 - Clone the repo
 ```
-git clone git@github.com:chavo1/packer-vagran-ember.git
-cd packer-vagran-ember/ember-box
+git clone git@github.com:chavo1/packer-vagrant-ember.git
+cd packer-vagrant-ember/ember-box
 ```
 - To build vagrant box use below command:
 ```
