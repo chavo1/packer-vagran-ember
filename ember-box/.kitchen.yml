@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: vbox/bionic64
+    driver:
+      box: chavo1/bionic64-ember
+      provider: virtualbox
+  - name: vbox/bionic64
+    driver:
+      box: chavo1/bionic64-ember
+      provider: vbox_desktop
+
+verifier:
+  name: inspec
+
+suites:
+  - name: default
