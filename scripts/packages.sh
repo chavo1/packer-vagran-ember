@@ -25,12 +25,11 @@ apt-get install -y linux-generic linux-image-generic ${APTARGS}
 apt-get install -y build-essential libssl-dev --no-install-recommends ${APTARGS}
 
 # install curl vim
-which curl vim &>/dev/null || {
-  apt-get install -y curl vim ${APTARGS}
-}
+apt-get install -y curl vim ${APTARGS}
 
 # Install nodejs
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_12.x | bash -
+
 apt-get update ${APTARGS}
 apt-get install -y nodejs ${APTARGS}
 
